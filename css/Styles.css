@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Playfair Display SC', serif;
+  color: #FFC93C;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #FFC93C;
+  font-weight: normal;
+}
+
+h3 {
+  color:black;
+}
+
+p {
+  color: #343A40;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom:none;
+  width: 5%;
+}
+
+a{
+  color: #FFC93C;
+  font-family: Montserrat, sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.Dan {
+  text-decoration: underline;
+}
+
+.DANSTORA {
+  float: left;
+  margin-right: 30px;
+  width: 15%;
+}
+
+.Top_Container {
+  /*background-color: #3C8DAD;
+  height: 200px; width: 200px;*/
+  position: relative;
+  padding-top: 100px;
+  background-color: #0A1931;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.DarkSoulsHole {
+  float: right;
+  padding-right: 150px;
+  width: 20%;
+}
+
+.Middle_Container {}
+
+.bottom-container{
+  background-color: #0A1931;
+  padding: 50px 0 20px;
+}
+
+.contact-me{
+  margin-bottom: 25px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+
+.btn {
+   background: #0A1931;
+   background-image: -webkit-linear-gradient(top, #0A1931, #1C3764);
+   background-image: -moz-linear-gradient(top, #0A1931, #1C3764);
+   background-image: -ms-linear-gradient(top, #0A1931, #1C3764);
+   background-image: -o-linear-gradient(top, #0A1931, #1C3764);
+   background-image: -webkit-gradient(to bottom, #0A1931, #1C3764);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   width: 185px;
+   font-size: 25px;
+   font-weight: 100;
+   padding: 25px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #E9BC09 1px;
+   background: #DBB211;
+   background-image: -webkit-linear-gradient(top, #DBB211, #FFE57D);
+   background-image: -moz-linear-gradient(top, #DBB211, #FFE57D);
+   background-image: -ms-linear-gradient(top, #DBB211, #FFE57D);
+   background-image: -o-linear-gradient(top, #DBB211, #FFE57D);
+   background-image: -webkit-gradient(to bottom, #DBB211, #FFE57D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
